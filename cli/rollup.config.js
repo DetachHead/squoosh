@@ -16,6 +16,7 @@ export default {
     // This is needed so the resulting `index.js` can be
     // executed by `npx`.
     banner: '#!/usr/bin/env node',
+    sourcemap: true
   },
   plugins: [
     resolve(),
